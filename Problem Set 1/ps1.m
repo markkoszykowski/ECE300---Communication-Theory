@@ -25,11 +25,11 @@ plot(f, X);
 xticks(-range:(1/(2*W)):range);
 title("X({\itf}), A=" + A + ", W=" + W);
 xlabel("\itf");
-ylabel("X(\itf)");
+ylabel("X({\itf})");
 
 subplot(2,1,2);
 plot(t, x);
 xticks(-range:(1/(2*W)):range);
 title("x({\itt}), A=" + A + ", W=" + W);
 xlabel("\itt");
-ylabel("x(\itt)");
+ylabel("x({\itt})");
